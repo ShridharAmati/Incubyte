@@ -15,6 +15,10 @@ static int Add(String numbers) {
 		System.out.println("String");
 		String numbers=sc.nextLine();
 		String[] arr = numbers.split(",");
+		int a[]=new int[arr.length];
+		for(int i=0;i<arr.length;i++) {
+			a[i]=Integer.parseInt(arr[i]); 
+		}
 		if(arr.length<=2) 
 		{
 		Add(numbers);
