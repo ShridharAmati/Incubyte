@@ -1,11 +1,16 @@
 public class Stringcalculator {
 	int Add(String numbers) {
-static int Add(String numbers) {
+static int Add(String numbers,int a[]) {
 		if(numbers.isEmpty()) 
 		{
 //		return 0;
 			System.out.println("0");
 		}
+		int add=0;
+		for(int i=0;i<a.length;i++) {
+			add+=a[i];
+		}
+		System.out.println(add);
 		
 		return 0;
 		}
