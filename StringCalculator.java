@@ -24,10 +24,10 @@ static int Add(String numbers,int a[]) {
 		for(int i=0;i<arr.length;i++) {
 			a[i]=Integer.parseInt(arr[i]); 
 		}
-		if(arr.length<=2) 
-		{
+// 		if(arr.length<=2) 
+// 		{
 		Add(numbers);
-		}
+// 		}
 	}
 
 }
